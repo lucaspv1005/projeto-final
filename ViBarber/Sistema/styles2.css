@@ -1,0 +1,33 @@
+body {
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quadrado {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+}
+
+.quadrado img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px; /* Adicione margem inferior para separar a imagem do texto */
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
